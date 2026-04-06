@@ -1,3 +1,4 @@
+import React from 'react';
 import './ExploreContainer.css';
 import { IonButton, IonPopover, IonContent } from '@ionic/react';
 
@@ -18,7 +19,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
 
       <IonButton id="hover-trigger">Hover Over Me</IonButton>
       <IonPopover trigger="hover-trigger" triggerAction="hover">
-        <IonContent class="ion-padding">Welcome!</IonContent>
+        <IonContent class="ion-padding">Hi I'm Rhics!!!</IonContent>
       </IonPopover>
     </>
   );
