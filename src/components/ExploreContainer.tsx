@@ -6,7 +6,7 @@ interface ContainerProps { }
 
 const ExploreContainer: React.FC<ContainerProps> = () => {
   return (
-     <>
+     <div id="container">
       <IonButton id="click-trigger">Left-Click Me</IonButton>
       <IonPopover trigger="click-trigger" triggerAction="click">
         <IonContent class="ion-padding">Yaay!</IonContent>
@@ -21,7 +21,7 @@ const ExploreContainer: React.FC<ContainerProps> = () => {
       <IonPopover trigger="hover-trigger" triggerAction="hover">
         <IonContent class="ion-padding">Hi I'm Rhics!!!</IonContent>
       </IonPopover>
-    </>
+    </div>
   );
 };
 
